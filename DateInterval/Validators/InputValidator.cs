@@ -1,5 +1,4 @@
-﻿using System;
-using DateInterval.Exceptions;
+﻿using DateInterval.Exceptions;
 
 namespace DateInterval.Validators
 {

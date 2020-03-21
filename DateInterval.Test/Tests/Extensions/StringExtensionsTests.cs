@@ -1,5 +1,4 @@
-﻿using System;
-using DateInterval.Exceptions;
+﻿using DateInterval.Exceptions;
 using DateInterval.Extensions;
 using NUnit.Framework;
 
