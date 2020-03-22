@@ -17,6 +17,5 @@ namespace DateInterval.Test.Tests.Model
             
             Assert.AreEqual(exceptionMessage,exception.Message);
         }
-
     }
 }

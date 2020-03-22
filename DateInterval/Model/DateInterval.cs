@@ -24,7 +24,7 @@ namespace DateInterval.Model
 
         private void ValidateStartIsBeforeEnd()
         {
-            if (_start > _end)
+            if (_start.ToFileTimeUtc() > _end.ToFileTimeUtc())
             {
                 throw new IncorrectDateIntervalArgumentsException("Start date is earlier than end date.");
             }
