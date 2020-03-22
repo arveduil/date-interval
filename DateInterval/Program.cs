@@ -1,7 +1,4 @@
-﻿using System;
-using DateInterval.Exceptions;
-using DateInterval.Extensions;
-using DateInterval.Writers;
+﻿using DateInterval.Writers;
 
 namespace DateInterval
 {
